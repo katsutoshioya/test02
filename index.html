@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+<style>
+#ex,
+#ex02 {
+  background: #004703;
+  max-width: 500px;
+  margin: 60px auto 0;
+}
+#ex {
+  color: #fff;
+  height: 100px;
+}
+#ex02 {
+  display: none;
+}
+/* ボタン */
+.btn {
+	font-size: 16px;
+	color: #fff;
+  font-weight: bold;
+	text-align: center;
+	width: 200px;
+	margin: 15px auto 0;
+  padding: 20px 0;
+	background: #ea952b;
+  border: none;
+  border-radius: 10px;
+	box-sizing: border-box;
+	display: block;
+  text-decoration: none;
+  -webkit-transition: all 0.7s;
+	-moz-transition: all 0.7s;
+	-ms-transition: all 0.7s;
+	-o-transition: all 0.7s;
+	transition: all 0.7s;
+}
+.btn:hover {
+	cursor : pointer;
+	background: #004703;
+}
+/*--------flexBox--------*/
+.flexbox {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+</style>
+  <div class="Box">
+    <h1>jQueryの練習</h1>
+  </div>
+
+  <div id="js">
+    <h2>jQueryの練習</h2>
+  </div>
+
+
+  <div id="ex">
+  </div>
+  <div class="flexbox">
+    <p id="show" class="btn">SHOW</p>
+    <p id="hide" class="btn">HIDE</p>
+  </div>
+
+
+  <div id="ex02">
+  </div>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+</html>
